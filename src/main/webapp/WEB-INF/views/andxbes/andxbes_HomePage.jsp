@@ -9,6 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+        <link rel="stylesheet" type="text/css" href="../../resources/style.css"
         <title> Бесценный Андрей </title>
     </head>
     <body>
