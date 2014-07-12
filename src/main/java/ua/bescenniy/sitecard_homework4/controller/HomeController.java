@@ -22,4 +22,9 @@ public class HomeController {
 	    return new ModelAndView("andxbes/andxbes_HomePage");
 	}
 	
+	@RequestMapping(value="uknown")
+	public ModelAndView uknown(HttpServletResponse response) throws IOException{
+
+	    return new ModelAndView("uknown/uknown");
+	}
 }
