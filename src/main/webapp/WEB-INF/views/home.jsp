@@ -8,7 +8,8 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Приветствуем вас на странице группы студентов курсов "SkillsUp"</h1>
         <p>This is the homepage!</p>
+        <a href="andxbes">Бесценный Андрей</a>
     </body>
 </html>
