@@ -8,9 +8,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
-        <link rel="stylesheet" type="text/css" href="../../resources/style.css"
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       
         <title> Бесценный Андрей </title>
+        <style><%@include  file="../../../resources/style.css" %>></style>
+        
     </head>
     <body>
         <h1>Это персональная страничка Бесценного Андрея </h1>

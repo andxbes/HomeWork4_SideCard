@@ -5,12 +5,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="../../resources/style.css"
+       
         <title>Home</title>
+        <style><%@include  file="../../resources/style.css" %>></style>
     </head>
     <body>
-        <h1>Приветствуем вас на странице группы студентов курсов "SkillsUp"</h1>
+        <h1>Приветствуем вас на странице группы студентов , курсов "SkillsUp"</h1>
         <p>This is the homepage!</p>
+       
         <a href="andxbes">Бесценный Андрей</a>
     </body>
 </html>
