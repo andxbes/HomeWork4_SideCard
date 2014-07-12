@@ -16,13 +16,13 @@
         </div>
 
         <div class="body">
-             <a href="andxbes">Бесценный Андрей</a>
-             <a href="uknown">Uknown</a>
-             <a href="uknown">Uknown</a>
-             <a href="uknown">Uknown</a>
-             <a href="uknown">Uknown</a>
-             <a href="uknown">Uknown</a>
-             <a href="uknown">Uknown</a>
+            <p><a href="andxbes">Бесценный Андрей</a></p>
+             <p><a href="uknown">Uknown</a></p>
+             <p><a href="uknown">Uknown</a></p>
+             <p><a href="uknown">Uknown</a></p>
+             <p><a href="uknown">Uknown</a></p>
+             <p><a href="uknown">Uknown</a></p>
+             <p><a href="uknown">Uknown</a></p>
         </div>
     </body>
 </html>
