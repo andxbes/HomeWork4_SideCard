@@ -4,17 +4,20 @@
     Author     : Andr
 --%>
 
-<%@page contentType="text/html" pageEncoding="windows-1251"%>
+<%@page contentType="text/html" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
        
-        <title> Бесценный Андрей </title>
-        <style><%@include  file="../../../resources/style.css" %>></style>
+        <title> Р‘РµСЃС†РµРЅРЅС‹Р№ РђРЅРґСЂРµР№ </title>
+        <style><%@include  file="../../../resources/css/style.css" %>></style>
         
     </head>
     <body>
-        <h1>Это персональная страничка Бесценного Андрея </h1>
+        <h1>Р­С‚Рѕ РїРµСЂСЃРѕРЅР°Р»СЊРЅР°СЏ СЃС‚СЂР°РЅРёС‡РєР° Р‘РµСЃС†РµРЅРЅРѕРіРѕ РђРЅРґСЂРµСЏ </h1>
+        <div class="info"> 
+
+        </div>
     </body>
 </html>

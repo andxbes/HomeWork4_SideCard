@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>uknown</title>
-        <style><%@include  file="../../../resources/style.css" %>></style>
+        <style><%@include  file="../../../resources/css/style.css" %>></style>
     </head>
     <body>
         <h1> Сдесь может быть ваша реклама =)) </h1>

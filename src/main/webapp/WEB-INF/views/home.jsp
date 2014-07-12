@@ -7,12 +7,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title>Home</title>
-        <style><%@include  file="../../resources/style.css" %>></style>
+        <style><%@include  file="../../resources/css/style.css" %>></style>
     </head>
     <body>
         <div class="head">
             <h1>Приветствуем вас на странице группы студентов , курсов "SkillsUp"</h1>
-            <p>This is the homepage!</p>
+            <p> Участники проекта : </p>
         </div>
 
         <div class="body">

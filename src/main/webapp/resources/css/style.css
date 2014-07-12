@@ -9,8 +9,17 @@ div{
     margin: 0 auto;
 }
 .body{
-    
+   
     width: 70%;
-    background: chartreuse;
+    background: chartreuse;  
     
+}
+a:visited{
+    color: tomato;
+}
+a{
+    color: blue;
+}
+a:active{
+    color: red;
 }
