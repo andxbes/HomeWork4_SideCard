@@ -18,11 +18,13 @@
         <h1>Это "персональная" страничка Бесценного Андрея </h1>
 
         <div class="info">
-            <%
-                for (int i = 0; i < 10; i++) {
-                    out.println("Hi " + (i+1) + " <br>");
-                }
-            %>
+            <div class="divHi">
+                <%
+                    for (int i = 0; i < 10; i++) {
+                        out.println("Hi " + (i + 1) + " <br>");
+                    }
+                %>
+            </div>
 
             <p> <a>вариант импорта изображения №1 </a> <br>
 

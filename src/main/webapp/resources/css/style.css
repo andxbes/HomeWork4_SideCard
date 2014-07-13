@@ -3,7 +3,6 @@ body {
     background: black;
     color: cyan;
     text-align: center;
-    
 }
 div{
     margin: 0 auto;
@@ -25,4 +24,11 @@ a:active{
 }
 h1{
     color: chartreuse;
+}
+.divHi{
+    position: fixed;
+    left: 0px;
+    top: 250px;
+    width: 40px;
+    background: red;  
 }
