@@ -16,22 +16,25 @@
     </head>
     <body>
         <h1>Это "персональная" страничка Бесценного Андрея </h1>
-        
+
         <div class="info">
             <%
-            for (int i = 0; i < 10; i++) {
-                out.println("hi <br>");
-            }
+                for (int i = 0; i < 10; i++) {
+                    out.println("Hi " + (i+1) + " <br>");
+                }
             %>
-            <p> pic 
-                <br>
 
-                <img  src="../../../resources/pic/andr.JPG" width="635" height="572" alt="andr"/>
+            <p> <a>вариант импорта изображения №1 </a> <br>
+
+                <img  src="${pageContext.servletContext.contextPath}/resources/pic/andr.JPG" width="635" height="572" alt="andr"/>
             </p>
 
+            <p>
+                <a>вариант импорта изображения №2</a> <br>
+                <img  src="<%= request.getContextPath()%>/resources/pic/andr.JPG" width="635" height="572" alt="andr"/>
+            </p>
 
-
-            <h3> Package dependence : </h3>
+            <h3>  Dependence o_0: </h3>
             <p><%
                 for (Package p : Package.getPackages()) {
                     out.print(p.toString() + "<br>");
