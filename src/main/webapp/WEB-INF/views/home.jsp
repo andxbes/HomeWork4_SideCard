@@ -15,15 +15,18 @@
             <p> Участники проекта : </p>
         </div>
 
-        
+
         <div class="body">
-            <p><a href="andxbes">Бесценный Андрей</a></p>
-             <p><a href="uknown">Uknown</a></p>
-             <p><a href="uknown">Uknown</a></p>
-             <p><a href="uknown">Uknown</a></p>
-             <p><a href="uknown">Uknown</a></p>
-             <p><a href="uknown">Uknown</a></p>
-             <p><a href="uknown">Uknown</a></p>
+            <ol>
+                <li><p><a href="andxbes">Бесценный Андрей</a></p> </li>
+
+                <!-- nice code , almost JavaScript =)) -->
+
+                <%for (int i = 0; i < 6; i++) {%>
+                <li><p><a href="uknown">Uknown</a></p></li>
+                    <%}%>
+
+            </ol>
         </div>
     </body>
 </html>

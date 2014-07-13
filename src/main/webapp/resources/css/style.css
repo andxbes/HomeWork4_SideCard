@@ -7,14 +7,15 @@ body {
 div{
     margin: 0 auto;
 }
+/*setting the  master-div*/ 
 .body{
    
-    width: 70%;
-    background: chartreuse;  
+    width: 250px;
+    background: teal;  
     
 }
 a:visited{
-    color: tomato;
+    color: mediumspringgreen;
 }
 a{
     color: chartreuse;
@@ -25,10 +26,21 @@ a:active{
 h1{
     color: chartreuse;
 }
+
 .divHi{
+    color: papayawhip;
     position: fixed;
     left: 0px;
     top: 250px;
     width: 40px;
-    background: red;  
+    background: chocolate;  
+}
+/* for control panel*/
+.panel{
+    position: fixed;
+    right: 0px;
+    top: 250px;
+    width: 100px;
+    background: slateblue;  
+    
 }
