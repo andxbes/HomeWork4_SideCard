@@ -30,6 +30,7 @@ public class HomeController {
 	public String uknown(ModelMap model){
 	    model.put("date",new Date().toString());
 	    model.put("massage", "Сдесь может быть ваша реклама ! =) ");
+	     
 	    return "uknown";
 	}
 }

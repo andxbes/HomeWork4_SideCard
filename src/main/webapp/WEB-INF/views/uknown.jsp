@@ -15,6 +15,7 @@
     <body>
         <h1>${date}</h1>
         <h1>${massage}</h1>
+        <p><img  src="<%= request.getContextPath()%>/resources/pic/uknown.jpg"  alt="uknown"/></p>
         
         <div class="panel">
             <a href="./">Home page</a>
