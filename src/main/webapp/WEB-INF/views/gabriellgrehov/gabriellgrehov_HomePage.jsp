@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title> Кальной Евгений  (<%= request.getContextPath()%>)</title>
-        <style><%@include  file="../../../resources/css/style.css" %>></style>
+        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/resources/css/style.css">
 
     </head>
     <body>
