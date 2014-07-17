@@ -7,8 +7,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/resources/css/style.css">
-        <!--        <style><%@include  file="../../resources/css/style.css" %>></style>-->
+        <link rel="stylesheet" type="text/css"
+              href="<%= request.getContextPath()%>/resources/css/style.css">
+        <!-- <style><%@include  file="../../resources/css/style.css" %>></style> -->
     </head>
     <body>
         <div class="head">
@@ -25,7 +26,7 @@
 
                 <%for (int i = 0; i < 4; i++) {%>
                 <li><p><a href="unknown">Unknown</a></p></li>
-                    <%}%>
+                            <%}%>
 
             </ol>
         </div>
