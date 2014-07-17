@@ -23,7 +23,7 @@
                 <!-- nice code , almost JavaScript =)) -->
 
                 <%for (int i = 0; i < 5; i++) {%>
-                <li><p><a href="uknown">Uknown</a></p></li>
+                <li><p><a href="unknown">Unknown</a></p></li>
                     <%}%>
 
             </ol>
