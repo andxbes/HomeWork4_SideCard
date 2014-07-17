@@ -19,10 +19,10 @@
         <div class="body">
             <ol>
                 <li><p><a href="andxbes">Бесценный Андрей</a></p> </li>
-
+                <li><p><a href="gabriellgrehov">Кальной Евгений</a></p> </li>
                 <!-- nice code , almost JavaScript =)) -->
 
-                <%for (int i = 0; i < 6; i++) {%>
+                <%for (int i = 0; i < 5; i++) {%>
                 <li><p><a href="uknown">Uknown</a></p></li>
                     <%}%>
 

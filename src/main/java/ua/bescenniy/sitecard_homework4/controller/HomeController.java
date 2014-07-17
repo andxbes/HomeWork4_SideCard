@@ -25,6 +25,12 @@ public class HomeController {
 
 	    return new ModelAndView("andxbes/andxbes_HomePage");
 	}
+        
+        @RequestMapping(value = "gabriellgrehov")
+        public ModelAndView gabriellgrehov(HttpServletResponse response) throws IOException{
+            
+            return new ModelAndView("gabriellgrehov/gabriellgrehov_HomePage");
+        }
 	
 	@RequestMapping(value="uknown",method = RequestMethod.GET)
 	public String uknown(ModelMap model){
