@@ -34,7 +34,7 @@
             %>
         </div>
 
-        <div class="container modal-content">
+        <div class="container modal-content " style="background: #282828">
             <p> <a>вариант импорта изображения №1 </a> <br>
 
                 <img  src="${pageContext.servletContext.contextPath}/resources/pic/andr.JPG" alt="andr"/>
@@ -46,7 +46,7 @@
             </p>
 
         </div>
-            <div   class="panel-footer" style="color: brown">
+            <div   class="panel-footer" style="color: brown;background:  #282828">
                 <h3>  Dependence o_0: </h3>
                 <textarea class=""><%
                     for (Package p : Package.getPackages()) {

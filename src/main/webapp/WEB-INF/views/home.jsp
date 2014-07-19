@@ -8,20 +8,21 @@
 
         <title>Home</title>
         
-        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath()%>
-              /resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" 
+              href="<%= request.getContextPath()%>/resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css"
               href="<%= request.getContextPath()%>/resources/css/style.css">
        <!-- <style><%@include  file="../../resources/css/style.css" %>></style> -->
     </head>
     <body>
-        <div class="head">
+        <div class="head modal-header head">
             <h1>Приветствуем вас на странице группы студентов , курсов "SkillsUp"</h1>
-            <p> Участники проекта : </p>
+           
         </div>
 
 
-        <div class="body container">
+         <p> Участники проекта : </p>
+        <div class="body modal-content">
             <ol>
                 <li><p><a href="andxbes">Бесценный Андрей</a></p> </li>
                 <li><p><a href="gabriellgrehov">Кальной Евгений</a></p> </li>
