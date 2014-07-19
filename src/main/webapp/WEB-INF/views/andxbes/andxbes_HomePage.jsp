@@ -11,23 +11,28 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title> Бесценный Андрей  (<%= request.getContextPath()%>)</title>
-        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/resources/css/style.css">
-
+        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath()%>/resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath()%>/resources/css/style.css">
     </head>
     <body>
         <h1>Это "персональная" страничка Бесценного Андрея </h1>
 
-        <div class="info">
-            <div class="panel">
-                 <a href="./">Home page</a>
+        <div   class="panel modal-content  ">
+            <div class="links">
+                <a href="./">Home page</a>
             </div>
-            <div class="divHi">
-                <%
-                    for (int i = 0; i < 10; i++)
-                        out.println("Hi " + (i + 1) + " <br>");
-                %>
-            </div>
+           
+        </div>
 
+        <div class="divHi modal-content">
+            <%
+                for (int i = 0; i < 10; i++) {
+                    out.println("Hi " + (i + 1) + " <br>");
+                }
+            %>
+        </div>
+
+        <div class="container modal-content">
             <p> <a>вариант импорта изображения №1 </a> <br>
 
                 <img  src="${pageContext.servletContext.contextPath}/resources/pic/andr.JPG" width="635" height="572" alt="andr"/>
@@ -38,13 +43,16 @@
                 <img  src="<%= request.getContextPath()%>/resources/pic/andr.JPG" width="635" height="572" alt="andr"/>
             </p>
 
-            <h3>  Dependence o_0: </h3>
-            <p><%
-                for (Package p : Package.getPackages()) {
-                    out.print(p.toString() + "<br>");
-                }
-                %>
-
         </div>
+            <div   class="panel-footer" style="color: brown">
+                <h3>  Dependence o_0: </h3>
+                <textarea class=""><%
+                    for (Package p : Package.getPackages()) {
+                        out.print(p.toString() + "<br>");
+                    }
+                    %>
+                </textarea>
+            </div>
+            
     </body>
 </html>
