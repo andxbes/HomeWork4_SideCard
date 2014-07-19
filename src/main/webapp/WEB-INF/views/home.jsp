@@ -7,9 +7,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title>Home</title>
+        
+        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath()%>
+              /resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css"
               href="<%= request.getContextPath()%>/resources/css/style.css">
-        <!-- <style><%@include  file="../../resources/css/style.css" %>></style> -->
+       <!-- <style><%@include  file="../../resources/css/style.css" %>></style> -->
     </head>
     <body>
         <div class="head">
@@ -18,7 +21,7 @@
         </div>
 
 
-        <div class="body">
+        <div class="body container">
             <ol>
                 <li><p><a href="andxbes">Бесценный Андрей</a></p> </li>
                 <li><p><a href="gabriellgrehov">Кальной Евгений</a></p> </li>

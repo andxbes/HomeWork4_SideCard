@@ -11,8 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title> Бесценный Андрей  (<%= request.getContextPath()%>)</title>
-        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath()%>/resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="<%= request.getContextPath()%>/resources/css/style.css">
+        <link rel="stylesheet" type="text/css" 
+              href="<%= request.getContextPath()%>/resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" 
+              href="<%= request.getContextPath()%>/resources/css/style.css">
     </head>
     <body>
         <h1>Это "персональная" страничка Бесценного Андрея </h1>
@@ -35,12 +37,12 @@
         <div class="container modal-content">
             <p> <a>вариант импорта изображения №1 </a> <br>
 
-                <img  src="${pageContext.servletContext.contextPath}/resources/pic/andr.JPG" width="635" height="572" alt="andr"/>
+                <img  src="${pageContext.servletContext.contextPath}/resources/pic/andr.JPG" alt="andr"/>
             </p>
 
             <p>
                 <a>вариант импорта изображения №2</a> <br>
-                <img  src="<%= request.getContextPath()%>/resources/pic/andr.JPG" width="635" height="572" alt="andr"/>
+                <img  src="<%= request.getContextPath()%>/resources/pic/andr.JPG" alt="andr2"/>
             </p>
 
         </div>
