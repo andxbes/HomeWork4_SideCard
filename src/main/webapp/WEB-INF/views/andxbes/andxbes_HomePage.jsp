@@ -28,16 +28,23 @@
             <div class="links">
                 <a href="./">Home page</a>
             </div>
-
         </div>
 
         <div class="divHi modal-content">
             <%
                 for (int i = 0; i < 10; i++) {
-                    out.println("Hi " + (i + 1) + " <br>");
+                    out.println("Hi " + (i + 1) + "\n");
                 }
             %>
+            <div class="links modal-content" style="background: mediumblue">
+                <p>Елка - все зависит От Нас Самих</p> 
+                <audio controls > 
+                    <source src="http://cs1-44v4.vk.me/p9/dea1fc05887cdf.mp3?extra=o9f9dIaCxxRnd_La_bLfgnqkojp3mhGJUyghnVyFrXP6uS4vcsbL4jcYxm17hq24oRqzevX7wLAmRGNkpRXP7XcF32o51Q"
+                            type="audio/mpeg">
+                </audio>
+            </div>
         </div>
+
 
         <div class="container modal-content " style="background: #282828">
             <p> <a>вариант импорта изображения №1 </a> <br>
@@ -54,9 +61,9 @@
 
         <div  id="dependence" class="panel-footer container" 
               style="color: brown;background:  #282828">
-            
+
             <h3 onclick="hideShow(ta)" >  Dependence o_0 (Click Me!) : </h3>
-            
+
             <textarea id="ta" style="display: none">
                 <%
                     for (Package p : Package.getPackages()) {

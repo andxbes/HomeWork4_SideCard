@@ -32,12 +32,12 @@
 
             <p> <a>вариант импорта изображения №1 </a> <br>
 
-                <img  src="${pageContext.servletContext.contextPath}/resources/pic/uknown.jpg" width="635" height="572" alt="uknown"/>
+                <img  src="${pageContext.servletContext.contextPath}/resources/pic/uknown.jpg" alt="uknown"/>
             </p>
 
             <p>
                 <a>вариант импорта изображения №2</a> <br>
-                <img  src="<%= request.getContextPath()%>/resources/pic/uknown.jpg" width="635" height="572" alt="uknown"/>
+                <img  src="<%= request.getContextPath()%>/resources/pic/uknown.jpg"  alt="uknown"/>
             </p>
 
             <h3>  Dependence o_0: </h3>
