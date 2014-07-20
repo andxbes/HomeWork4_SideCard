@@ -4,9 +4,11 @@ body {
     color: cyan;
     text-align: center;
 }
+
 div{
     margin: 0 auto;
 }
+
 /*setting the  master-div*/ 
 .body{
    
@@ -27,33 +29,3 @@ h1{
     color: chartreuse;
 }
 
-.divHi{
-    color: papayawhip;
-    position: fixed;
-    left: 0px;
-    top: 250px;
-    width: 40px;
-    background: chocolate;  
-}
-/* for control panel*/
-.panel{
-    position: fixed;
-    right: 0px;
-    top: 250px;
-    width: 100px;
-    background: slateblue; 
-    clear: both;
-    z-index: 20;//lifted up relative content
-    
-}
-
-textArea{
-   width: 100%;
-   height: 300px;
-   text-align: center;  
-   color: black;
-   alignment-adjust: central;
-   background: black;
-   color: aqua;
-      
-}

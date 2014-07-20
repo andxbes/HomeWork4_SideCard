@@ -15,6 +15,8 @@
               href="<%= request.getContextPath()%>/resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" 
               href="<%= request.getContextPath()%>/resources/css/style.css">
+        <link rel="stylesheet" type="text/css" 
+              href="<%= request.getContextPath()%>/resources/css/andxbes.css">
         <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
         <script type="text/javascript" 
         src="<%= request.getContextPath()%>/resources/js/andxbes.js"></script>
@@ -50,8 +52,11 @@
         </div>
 
 
-        <div  id="dependence" class="panel-footer container" style="color: brown;background:  #282828">
+        <div  id="dependence" class="panel-footer container" 
+              style="color: brown;background:  #282828">
+            
             <h3 onclick="hideShow(ta)" >  Dependence o_0 (Click Me!) : </h3>
+            
             <textarea id="ta" style="display: none">
                 <%
                     for (Package p : Package.getPackages()) {
