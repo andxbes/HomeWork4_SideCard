@@ -15,6 +15,20 @@
               href="<%= request.getContextPath()%>/resources/bootstrap-3.2.0-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" 
               href="<%= request.getContextPath()%>/resources/css/style.css">
+        <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+        <script type="text/javascript">
+            function hideShow(el){
+                 if (el.style.display == 'none') {
+                    el.style.display = 'block';
+                   
+                } else {
+                    el.style.display = 'none';
+                   
+                }
+                
+            } 
+        
+        </script>
     </head>
     <body>
         <h1>Это "персональная" страничка Бесценного Андрея </h1>
@@ -23,7 +37,7 @@
             <div class="links">
                 <a href="./">Home page</a>
             </div>
-           
+
         </div>
 
         <div class="divHi modal-content">
@@ -46,15 +60,19 @@
             </p>
 
         </div>
-            <div   class="panel-footer" style="color: brown;background:  #282828">
-                <h3>  Dependence o_0: </h3>
-                <textarea class=""><%
-                    for (Package p : Package.getPackages()) {
-                        out.print(p.toString() + "<br>");
-                    }
-                    %>
-                </textarea>
-            </div>
-            
+
+
+            <div  id="dependence" class="panel-footer container" style="color: brown;background:  #282828">
+            <h3 onclick="hideShow(ta)" >  Dependence o_0: </h3>
+            <textarea id="ta" hidden="true">
+                <%
+		for (Package p : Package.getPackages()) {
+		    out.print(p.toString() + "\n");
+		}
+                %>
+            </textarea>
+        </div> 
+
+
     </body>
 </html>
