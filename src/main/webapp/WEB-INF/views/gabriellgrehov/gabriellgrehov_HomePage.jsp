@@ -12,6 +12,8 @@
 
         <title> Кальной Евгений  (<%= request.getContextPath()%>)</title>
         <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/resources/css/style.css">
+        <link rel="stylesheet" type="text/css" 
+              href="<%= request.getContextPath()%>/resources/css/andxbes.css">
 
     </head>
     <body>
