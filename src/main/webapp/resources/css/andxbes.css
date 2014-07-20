@@ -13,7 +13,7 @@ and open the template in the editor.
     position: fixed;
     left: 0px;
     top: 250px;
-    
+    z-index: 20;
     background: chocolate;  
 }
 /* for control panel*/
