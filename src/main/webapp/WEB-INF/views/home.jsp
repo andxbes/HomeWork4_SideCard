@@ -26,7 +26,7 @@
             <ol>
                 <li><p><a href="andxbes">Бесценный Андрей</a></p> </li>
                 <li><p><a href="gabriellgrehov">Кальной Евгений</a></p> </li>
-                <!-- nice code , almost JavaScript =)) -->
+                
 
                 <%for (int i = 0; i < 4; i++) {%>
                 <li><p><a href="unknown">Unknown</a></p></li>

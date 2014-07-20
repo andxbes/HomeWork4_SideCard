@@ -16,12 +16,13 @@
         <link rel="stylesheet" type="text/css" 
               href="<%= request.getContextPath()%>/resources/css/style.css">
         <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
-        <script type="text/javascript" src="<%= request.getContextPath() %>/resources/js/andxbes.js"></script>
+        <script type="text/javascript" 
+        src="<%= request.getContextPath()%>/resources/js/andxbes.js"></script>
     </head>
     <body>
         <h1 class="modal-header">Это "персональная" страничка Бесценного Андрея </h1>
 
-        <div   class="panel modal-content  ">
+        <div   class="panel modal-content ">
             <div class="links">
                 <a href="./">Home page</a>
             </div>
@@ -38,7 +39,6 @@
 
         <div class="container modal-content " style="background: #282828">
             <p> <a>вариант импорта изображения №1 </a> <br>
-
                 <img  src="${pageContext.servletContext.contextPath}/resources/pic/andr.JPG" alt="andr"/>
             </p>
 
@@ -50,13 +50,13 @@
         </div>
 
 
-            <div  id="dependence" class="panel-footer container" style="color: brown;background:  #282828">
+        <div  id="dependence" class="panel-footer container" style="color: brown;background:  #282828">
             <h3 onclick="hideShow(ta)" >  Dependence o_0 (Click Me!) : </h3>
-            <textarea id="ta" hidden="true">
+            <textarea id="ta" style="display: none">
                 <%
-		for (Package p : Package.getPackages()) {
-		    out.print(p.toString() + "\n");
-		}
+                    for (Package p : Package.getPackages()) {
+                        out.print(p.toString() + "\n");
+                    }
                 %>
             </textarea>
         </div> 

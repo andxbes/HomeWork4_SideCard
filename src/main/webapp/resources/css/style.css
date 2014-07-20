@@ -41,7 +41,9 @@ h1{
     right: 0px;
     top: 250px;
     width: 100px;
-    background: slateblue;  
+    background: slateblue; 
+    clear: both;
+    z-index: 20;//lifted up relative content
     
 }
 
