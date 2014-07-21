@@ -37,7 +37,7 @@
                 }
             %>
             <div class="links modal-content" style="background: mediumblue">
-                <p>Елка - все зависит От Нас Самих</p> 
+                <p>Ёлка - все зависит От Нас Самих</p> 
                 <audio controls > 
                     <source src="http://cs1-44v4.vk.me/p9/dea1fc05887cdf.mp3?extra=o9f9dIaCxxRnd_La_bLfgnqkojp3mhGJUyghnVyFrXP6uS4vcsbL4jcYxm17hq24oRqzevX7wLAmRGNkpRXP7XcF32o51Q"
                             type="audio/mpeg">
