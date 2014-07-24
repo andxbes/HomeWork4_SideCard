@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -32,7 +31,7 @@ public class HomeController {
             return new ModelAndView("gabriellgrehov/gabriellgrehov_HomePage");
         }
 	
-	@RequestMapping(value="unknown",method = RequestMethod.POST)
+	@RequestMapping(value="unknown")
 	public String uknown(ModelMap model){
 	    model.put("date",new Date().toString());
 	    model.put("massage", "Сдесь может быть ваша реклама ! =) ");
