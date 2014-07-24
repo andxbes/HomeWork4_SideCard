@@ -32,7 +32,7 @@ public class HomeController {
             return new ModelAndView("gabriellgrehov/gabriellgrehov_HomePage");
         }
 	
-	@RequestMapping(value="unknown",method = RequestMethod.GET)
+	@RequestMapping(value="unknown",method = RequestMethod.POST)
 	public String uknown(ModelMap model){
 	    model.put("date",new Date().toString());
 	    model.put("massage", "Сдесь может быть ваша реклама ! =) ");
